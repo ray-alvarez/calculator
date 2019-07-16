@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>iOS Calculator</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <section id="calculator">
+                <div id="display">
+                    <p class="result">0</p>
+                </div>
+
+                <div id="buttons-container">
+                    <div class="clear">AC</div>
+                    <div class="sign">+/-</div>
+                    <div class="percent">%</div>
+                    <div class="operator" data-operator="/">÷</div>
+
+                    <div class="number" data-value="7">7</div>
+                    <div class="number" data-value="8">8</div>
+                    <div class="number" data-value="9">9</div>
+                    <div class="operator" data-operator="*">x</div>
+
+                    <div class="number" data-value="4">4</div>
+                    <div class="number" data-value="5">5</div>
+                    <div class="number" data-value="6">6</div>
+                    <div class="operator" data-operator="-">-</div>
+
+                    <div class="number" data-value="1">1</div>
+                    <div class="number" data-value="2">2</div>
+                    <div class="number" data-value="3">3</div>
+                    <div class="operator" data-operator="+">+</div>
+
+                    <div class="zero" data-value="0">0</div>
+                    <div class="decimal" data-operator=".">.</div>
+                    <div class="equal" data-operator="=">=</div>
+                </div>
+            </section>
+        </main>
+        <script src="calculator.js"></script>
+    </body>
+</html>
